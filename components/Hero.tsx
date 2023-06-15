@@ -1,0 +1,54 @@
+import React from "react";
+import Image from "next/image";
+import { Cursor, Typewriter, useTypewriter } from "react-simple-typewriter";
+import BackgroundCircles from "./BackgroundCircles";
+import Link from "next/link";
+
+type Props = {};
+
+export default function Hero({}: Props) {
+  const [text, count] = useTypewriter({
+    words: [
+      "Hi, We Are the Sims!",
+      "Got Questions? Contact us!",
+      "No Request is too grand",
+    ],
+    loop: true,
+    delaySpeed: 2000,
+  });
+
+  return (
+    <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
+      <BackgroundCircles />
+      <img
+        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        src="https://simscww.com/wp-content/uploads/2022/12/DSC_4351-300x200.jpg"
+        alt=""
+      />
+      <div className="z-10">
+        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[10px]">
+          Sim's Custom Wood Work
+        </h2>
+        <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
+          <span className="mr-3">{text}</span>
+          <Cursor cursorColor="#F7AB0A" />
+        </h1>
+
+        <div className="pt-5">
+          <Link href="#aboutus">
+            <button className="heroButton">About Us</button>
+          </Link>
+          <Link href="#faqs">
+            <button className="heroButton">FAQ's</button>
+          </Link>
+          <Link href="#gallery">
+            <button className="heroButton">Gallery</button>
+          </Link>
+          <Link href="#projects">
+            <button className="heroButton">Projects</button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+}
