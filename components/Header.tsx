@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 
@@ -25,17 +26,17 @@ function Header({}: Props) {
       >
         {/* Social Icons */}
         <SocialIcon
-          url="https://twitter.com/jakerent"
+          url="https://pinterest.com/"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/jakerent"
+          url="https://instagram.com"
           fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/jakerent"
+          url="https://facebook.com"
           fgColor="gray"
           bgColor="transparent"
         />

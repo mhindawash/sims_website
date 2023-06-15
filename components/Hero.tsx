@@ -26,7 +26,7 @@ export default function Hero({}: Props) {
         alt=""
       />
       <div className="z-10">
-        <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[10px]">
+        <h2 className="text-sm uppercase text-gray-400 pb-2 tracking-[10px]">
           Sim's Custom Wood Work
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
@@ -38,14 +38,14 @@ export default function Hero({}: Props) {
           <Link href="#aboutus">
             <button className="heroButton">About Us</button>
           </Link>
-          <Link href="#faqs">
-            <button className="heroButton">FAQ's</button>
-          </Link>
           <Link href="#gallery">
             <button className="heroButton">Gallery</button>
           </Link>
           <Link href="#projects">
             <button className="heroButton">Projects</button>
+          </Link>
+          <Link href="#faqs">
+            <button className="heroButton">FAQ's</button>
           </Link>
         </div>
       </div>
