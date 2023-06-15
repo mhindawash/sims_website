@@ -1,9 +1,11 @@
 import type { NextPage } from "next";
+import Image from "next/image";
 import Head from "next/head";
-import { Inter } from 'next/font/google'
+import { Inter } from "next/font/google";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
+import Faqs from "@/components/Gallery";
 
 // const inter = Inter({ subsets: ['latin'] })
 const Home: NextPage = () => {
@@ -14,25 +16,23 @@ const Home: NextPage = () => {
       </Head>
 
       <Header />
-
-      {/* Hero */}
+      
       <section id="hero" className="snap-start">
         <Hero />
       </section>
 
-      {/* About Us */}
-      <section id="about" className="snap-center">
+      <section id="aboutus" className="snap-center">
         <About />
       </section>
 
-      {/* FAQ's */}
-
+      <section id="gallery" className="snap-center">
+        <Faqs />
+      </section>
       {/* Gallery */}
 
       {/* Contact Us */}
-
     </div>
-  )
-}
+  );
+};
 
 export default Home;
