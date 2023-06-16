@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Questions from "./Questions";
+import Link from "next/link";
 
 type Props = {};
 

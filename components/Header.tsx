@@ -1,7 +1,7 @@
 import React from "react";
-import Image from "next/image";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {};
 
@@ -36,38 +36,40 @@ function Header({}: Props) {
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://facebook.com"
+          url="https://twitter.com/jakerent"
           fgColor="gray"
           bgColor="transparent"
         />
       </motion.div>
 
-      <motion.div
-        initial={{
-          x: -500,
-          opacity: 0,
-          scale: 0.5,
-        }}
-        animate={{
-          x: 0,
-          opacity: 1,
-          scale: 1,
-        }}
-        transition={{
-          duration: 1.5,
-        }}
-        className="flex flex-row items-center text-gray-300 cursor-pointer"
-      >
-        <SocialIcon
-          className="cursor-pointer"
-          network="email"
-          fgColor="gray"
-          bgColor="transparent"
-        />
-        <p className="uppercase hidden md:inline-flex text-small text-gray-400">
-          Contact Us
-        </p>
-      </motion.div>
+      <Link href="#contactus" passHref legacyBehavior>
+        <motion.div
+          initial={{
+            x: 500,
+            opacity: 0,
+            scale: 0.5,
+          }}
+          animate={{
+            x: 0,
+            opacity: 1,
+            scale: 1,
+          }}
+          transition={{
+            duration: 1.5,
+          }}
+          className="flex flex-row items-center text-gray-300 cursor-pointer"
+        >
+          <SocialIcon
+            className="cursor-pointer"
+            network="email"
+            fgColor="gray"
+            bgColor="transparent"
+          />
+          <p className="uppercase hidden md:inline-flex text-small text-gray-400">
+            Contact Us
+          </p>
+        </motion.div>
+      </Link>
     </header>
   );
 }
