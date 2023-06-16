@@ -1,11 +1,7 @@
-#### **Title:** 
-
-{Feature/Bug/Etc} {Brief description}
-
-#### **Issue linked:** 
-
-{Link to the issue if applicable}
-
-#### **Description:**
+### **Description:**
 
 {In-depth description of what is included in this PR}
+
+### **Issue Linked**
+
+N/A
