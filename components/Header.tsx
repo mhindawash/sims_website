@@ -27,17 +27,17 @@ function Header({}: Props) {
         {/* Social Icons */}
         <SocialIcon
           url="https://pinterest.com/"
-          fgColor="black"
+          fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://instagram.com"
-          fgColor="black"
+          fgColor="gray"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://twitter.com/jakerent"
-          fgColor="black"
+          fgColor="gray"
           bgColor="transparent"
         />
       </motion.div>
@@ -57,15 +57,15 @@ function Header({}: Props) {
           transition={{
             duration: 1.5,
           }}
-          className="flex flex-row items-center text-black font-bold cursor-pointer"
+          className="flex flex-row items-center text-gray-300 cursor-pointer"
         >
           <SocialIcon
             className="cursor-pointer"
             network="email"
-            fgColor="black"
+            fgColor="gray"
             bgColor="transparent"
           />
-          <p className="uppercase hidden md:inline-flex text-small text-black">
+          <p className="uppercase hidden md:inline-flex text-small text-gray-400">
             Contact Us
           </p>
         </motion.div>
