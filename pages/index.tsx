@@ -14,7 +14,7 @@ import ContactUs from "@/components/ContactUs";
 
 const Home: NextPage = () => {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
+    <div className="bg-[rgb(36,36,36)] text-black font-bold px-5 h-screen snap-y snap-mandatory overflow-scroll overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 bg-cover bg-[url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTFmODE4NTExODMzM2M5ODEzMGFlMDYwMTBjOTk0ZjUxNWVmODgyNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/ECab5CcmFmjHDZYdnB/giphy.gif')]">
       <Head>
         <title>Sim's Custom WoodWork</title>
       </Head>
@@ -48,6 +48,7 @@ const Home: NextPage = () => {
       <Link href="#hero">
         <footer className="sticky bottom-5 w-full cursor-pointer">
           <div className="flex items-center justify-center">
+            {/* This is a heroicon I took directly from their site */}
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
