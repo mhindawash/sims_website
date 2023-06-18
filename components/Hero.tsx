@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
 import React from "react";
 import Image from "next/image";
 import { Cursor, Typewriter, useTypewriter } from "react-simple-typewriter";

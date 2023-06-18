@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 type Props = {};
 
@@ -16,17 +17,18 @@ function Process({}: Props) {
         Our Process
       </h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
         {processes.map((process, i) => (
+          // eslint-disable-next-line react/jsx-key
           <div className="w-screen flex-shrink-0 snap-center flex flex-col space-y-5 items-center justify-center p-20 md:p-44 h-screen">
             <motion.img
-            initial={{
+              initial={{
                 y: -300,
-                opacity: 0
-            }}
-            transition={{ duration: 1.2 }}
-            whileInView={{ opacity: 1, y: 0}}
-            viewport={{ once: true }}
+                opacity: 0,
+              }}
+              transition={{ duration: 1.2 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
               src="https://i0.wp.com/simscww.com/wp-content/uploads/2022/12/IMG_0119-2022-12-19-16_28_46.jpg?resize=1024%2C768&ssl=1"
               alt=""
             />
