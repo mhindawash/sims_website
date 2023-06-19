@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { useState } from 'react';
+import { useState } from "react";
 
 type Props = {
   question: string;
@@ -13,12 +13,12 @@ function Questions({ question, answer }: Props) {
 
   return (
     <div 
-      className="relative flex cursor-pointer py-4" 
+      className="relative cursor-pointer py-4 flex items-center" 
       onMouseEnter={() => setIsAnswerVisible(true)} 
       onMouseLeave={() => setIsAnswerVisible(false)}
     >
       <button 
-        className={`bg-transparent rounded-full font-semibold py-2 px-4 border-transparent hover:border-transparent text-black ${isAnswerVisible ? 'hidden' : ''}`}
+        className={`transition-opacity duration-300 ease-in-out rounded-full font-semibold py-2 px-4 border-transparent hover:border-transparent text-black ${isAnswerVisible ? 'opacity-0' : 'opacity-100'}`}
         onClick={() => setIsAnswerVisible(true)}
       >
         {question}
@@ -26,7 +26,7 @@ function Questions({ question, answer }: Props) {
 
       {isAnswerVisible && 
         <div 
-          className="absolute inset-0 flex items-center justify-center bg-white z-10 text-black"
+          className="absolute top-0 left-0 bg-white rounded-full font-semibold p-6 border-transparent text-black z-10 overflow-auto sm:overflow-visible m-auto"
           onClick={() => setIsAnswerVisible(false)}
         >
           <p className="font-bold">
@@ -37,6 +37,5 @@ function Questions({ question, answer }: Props) {
     </div>
   );
 }
-
 
 export default Questions;
