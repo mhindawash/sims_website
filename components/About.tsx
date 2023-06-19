@@ -17,7 +17,7 @@ function About({}: Props) {
         About
       </h3>
 
-      <div className="object-contain h-48 w96">
+      <div className="flex container justify-center align-left w-96 h-38 py-4">
       <motion.img
         initial={{
           x: -200,
@@ -29,12 +29,12 @@ function About({}: Props) {
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
         src="https://simscww.com/wp-content/uploads/2023/03/randy-and-austin-shop-e1678257425144-300x294.jpg"
-        className="-mb-20 md:mb-0 flex-shrink-0 w-56 h-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
+        className="-mb-20 rounded-full object-contain md:mb-0 flex-shrink-0 w-56 h-56 md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
       />
       </div>
 
       <div className="space-y-10 px-0 md:px-10">
-        <h4 className="text-4xl font-semibold">
+        <h4 className="bg-white/70 text-4xl font-semibold">
           Here is a{" "}
           <span className="underline decoration-[#f7ab0a]/50">little</span>{" "}
           background: ;
