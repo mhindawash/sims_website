@@ -10,7 +10,7 @@ import About from "@/components/About";
 import Gallery from "@/components/Gallery";
 import FAQs from "@/components/FAQs";
 import Process from "@/components/Process";
-import ContactUs from "@/components/ContactUs";
+import MeetUs from "@/components/MeetUs";
 
 const Home: NextPage = () => {
   return (
@@ -41,12 +41,15 @@ const Home: NextPage = () => {
         <Process />
       </section>
 
-      <section id="contactus" className="snap-start">
-        <ContactUs />
+      <section id="meetus" className="snap-start">
+        <MeetUs />
       </section>
 
       <Link href="#hero">
-        <footer className="sticky bottom-5 w-full cursor-pointer">
+        <footer
+          className="sticky bottom-5 w-full cursor-pointer"
+          style={{ zIndex: 50 }}
+        >
           <div className="flex items-center justify-center">
             {/* This is a heroicon I took directly from their site */}
             <svg
