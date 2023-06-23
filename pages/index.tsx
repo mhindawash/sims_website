@@ -10,10 +10,10 @@ import About from "@/components/About";
 import Gallery from "@/components/Gallery";
 import FAQs from "@/components/FAQs";
 import Process from "@/components/Process";
-import Reviews from "@/components/BookingPage";
+import MeetUs from "@/components/MeetUs";
+import BookingPage from "@/components/BookingPage";
 import CalendlyComponent from "@/components/CalendlyComponent";
 import { FaRegCalendarAlt } from "react-icons/fa"; // Importing a calendar icon from FontAwesome
-import MeetUs from "@/components/MeetUs";
 
 const Home: NextPage = () => {
 	return (
@@ -48,16 +48,16 @@ const Home: NextPage = () => {
 				<MeetUs />
 			</section>
 
-			<section id="reviews" className="snap-start">
-				<Reviews />
+			<section id="calendly" className="snap-start">
+				<BookingPage />
 			</section>
 
 			<div className="footer-container" style={{ overflow: "hidden" }}>
-				<Link href="#hero">
-					<footer
-						className="fixed bottom-0 w-full cursor-pointer"
-						style={{ zIndex: 50 }}
-					>
+				<footer
+					className="fixed bottom-0 w-full cursor-pointer"
+					style={{ zIndex: 50 }}
+				>
+					<Link href="#hero">
 						<div className="flex items-center justify-center">
 							{/* This is a heroicon I took directly from their site */}
 							<svg
@@ -75,8 +75,8 @@ const Home: NextPage = () => {
 								/>
 							</svg>
 						</div>
-					</footer>
-				</Link>
+					</Link>
+				</footer>
 			</div>
 		</div>
 	);
