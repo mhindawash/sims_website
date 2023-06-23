@@ -10,22 +10,15 @@ import About from "@/components/About";
 import Gallery from "@/components/Gallery";
 import FAQs from "@/components/FAQs";
 import Process from "@/components/Process";
+import Reviews from "@/components/BookingPage";
 import MeetUs from "@/components/MeetUs";
 
 const Home: NextPage = () => {
-<<<<<<< HEAD
-  return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80">
-      <Head>
-        <title>Sim's Custom WoodWork</title>
-      </Head>
-=======
 	return (
 		<div className="bg-[rgb(36,36,36)] text-black font-bold px-5 h-screen snap-y snap-mandatory overflow-scroll overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 bg-cover bg-[url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTFmODE4NTExODMzM2M5ODEzMGFlMDYwMTBjOTk0ZjUxNWVmODgyNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/ECab5CcmFmjHDZYdnB/giphy.gif')]">
 			<Head>
 				<title>Sim's Custom WoodWork</title>
 			</Head>
->>>>>>> 414607a (fixed gallery section to be functioning and not overflowing into the footer on mac)
 
 			<Header />
 
@@ -53,33 +46,10 @@ const Home: NextPage = () => {
 				<MeetUs />
 			</section>
 
-<<<<<<< HEAD
-      <Link href="#hero">
-        <footer
-          className="sticky bottom-5 w-full cursor-pointer"
-          style={{ zIndex: 50 }}
-        >
-          <div className="flex items-center justify-center">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth={1.5}
-              stroke="currentColor"
-              className="w-6 h-6"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M2.25 12l8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
-              />
-            </svg>
-          </div>
-        </footer>
-      </Link>
-    </div>
-  );
-=======
+			<section id="reviews" className="snap-start">
+				<Reviews />
+			</section>
+
 			<div className="footer-container" style={{ overflow: "hidden" }}>
 				<Link href="#hero">
 					<footer
@@ -108,7 +78,6 @@ const Home: NextPage = () => {
 			</div>
 		</div>
 	);
->>>>>>> 414607a (fixed gallery section to be functioning and not overflowing into the footer on mac)
 };
 
 export default Home;
