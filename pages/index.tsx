@@ -11,6 +11,7 @@ import Gallery from "@/components/Gallery";
 import FAQs from "@/components/FAQs";
 import Process from "@/components/Process";
 import MeetUs from "@/components/MeetUs";
+import Reviews from "@/components/BookingPage";
 
 const Home: NextPage = () => {
 	return (
@@ -43,6 +44,10 @@ const Home: NextPage = () => {
 
 			<section id="meetus" className="snap-start">
 				<MeetUs />
+			</section>
+
+			<section id="reviews" className="snap-start">
+				<Reviews />
 			</section>
 
 			<div className="footer-container" style={{ overflow: "hidden" }}>
