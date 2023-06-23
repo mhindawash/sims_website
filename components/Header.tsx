@@ -57,12 +57,12 @@ function Header({}: Props) {
           transition={{
             duration: 1.5,
           }}
-          className="flex flex-row items-center text-black font-bold cursor-pointer"
+          className="flex flex-row items-center text-gray-300 cursor-pointer"
         >
           <SocialIcon
             className="cursor-pointer"
             network="email"
-            fgColor="black"
+            fgColor="gray"
             bgColor="transparent"
           />
           <p className="uppercase hidden md:inline-flex text-small text-black">
