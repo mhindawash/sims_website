@@ -21,7 +21,6 @@ export default function Hero({}: Props) {
 
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
-      <BackgroundCircles />
       <img
         className="relative border-solid border-2 border-black rounded-full h-32 w-32 mx-auto object-cover"
         src="https://simscww.com/wp-content/uploads/2022/12/DSC_4351-300x200.jpg"

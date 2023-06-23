@@ -42,7 +42,7 @@ function Header({}: Props) {
         />
       </motion.div>
 
-      <Link href="#contactus" passHref legacyBehavior>
+      <Link href="#meetus" passHref legacyBehavior>
         <motion.div
           initial={{
             x: 500,
