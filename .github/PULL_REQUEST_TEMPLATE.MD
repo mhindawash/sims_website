@@ -1,7 +1,11 @@
 ### **Description:**
 
-{In-depth description of what is included in this PR}
+<!-- In-depth description of what is included in this PR -->
 
 ### **Issue Linked**
 
-N/A
+<!-- Write here if there's any issues -->
+
+### **Screenshots**
+
+<!-- Post screenshots in here from the work done -->
