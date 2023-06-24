@@ -1,17 +1,16 @@
 import React from "react";
 import CalendlyComponent from "../components/CalendlyComponent";
-import styles from "../styles/BookingPage.module.css";
 import { FaRegCalendarAlt } from "react-icons/fa"; // Importing a calendar icon from FontAwesome
 
 const BookingPage: React.FC = () => (
-	<div className={styles.container}>
-		<h3 className={styles.title}>
-			<FaRegCalendarAlt size={32}/> Book a meeting
-		</h3>
-		<div className={styles.calendlyContainer}>
-			<CalendlyComponent />
-		</div>
-	</div>
+    <div className="flex flex-col items-center justify-center h-screen">
+        <h3 className="text-center">
+            <FaRegCalendarAlt className="inline-block mr-2" size={32}/> Book a meeting
+        </h3>
+        <div className="w-full max-w-md">
+            <CalendlyComponent />
+        </div>
+    </div>
 );
 
 export default BookingPage;
