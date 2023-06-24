@@ -12,6 +12,7 @@ import FAQs from "@/components/FAQs";
 import Process from "@/components/Process";
 import MeetUs from "@/components/MeetUs";
 import BookingPage from "@/components/BookingPage";
+import { FaRegCalendarAlt } from "react-icons/fa";
 
 const Home: NextPage = () => {
 	return (
