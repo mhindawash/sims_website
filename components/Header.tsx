@@ -2,7 +2,6 @@ import React from "react";
 import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { FaRegCalendarAlt } from "react-icons/fa";
 
 type Props = {};
 
@@ -38,16 +37,16 @@ function Header({}: Props) {
 				/>
 				<SocialIcon
 					url="https://twitter.com/"
-					fgColor="skyblue"
+					fgColor="#1DA1F2"
 					bgColor="transparent"
 				/>
-				<div className="App">
+        <div className="App">
 					<SocialIcon
 						url="https://www.linkedin.com"
 						network="linkedin"
-						fgColor="white"
-						bgColor="blue"
-						style={{ height: 50, width: 50 }}
+						fgColor="blue"
+						bgColor="transparent"
+						style={{ height: 60, width: 45 }}
 					/>
 				</div>
 			</motion.div>
@@ -69,17 +68,12 @@ function Header({}: Props) {
 					}}
 					className="flex flex-row items-center text-black font-bold cursor-pointer"
 				>
-					<Link href="#calendly">
-						<FaRegCalendarAlt
-							href="https://calendly.com/mo3greentv"
-							size={25}
-						/>
-					</Link>
 					<SocialIcon
 						className="cursor-pointer"
 						network="email"
 						fgColor="black"
 						bgColor="transparent"
+            style={{ height: 60, width: 45 }}
 					/>
 					<p className="uppercase hidden md:inline-flex text-small text-black">
 						get in touch
