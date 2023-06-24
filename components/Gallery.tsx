@@ -28,7 +28,7 @@ function Gallery({}: Props) {
 				className="flex flex-col items-center my-10 mx-20 overflow-hidden"
 				style={{ paddingBottom: "60px" }}
 			>
-				<div style={{ marginBottom: "20px", paddingTop: "20px" }}>
+				<div style={{ paddingBottom: "3px", paddingTop: "20px" }}>
 					<h3 className="uppercase text-black text-2xl mb-4 border-none">
 						Gallery
 					</h3>
