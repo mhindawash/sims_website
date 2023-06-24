@@ -12,8 +12,6 @@ import FAQs from "@/components/FAQs";
 import Process from "@/components/Process";
 import MeetUs from "@/components/MeetUs";
 import BookingPage from "@/components/BookingPage";
-import CalendlyComponent from "@/components/CalendlyComponent";
-import { FaRegCalendarAlt } from "react-icons/fa"; // Importing a calendar icon from FontAwesome
 
 const Home: NextPage = () => {
 	return (

@@ -3,8 +3,6 @@ import { SocialIcon } from "react-social-icons";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { FaRegCalendarAlt } from "react-icons/fa";
-import ReactDOM from "react-dom";
-// ReactDOM.render(<SocialIcon url="https://tiktok.com" />, document.body);
 
 type Props = {};
 
