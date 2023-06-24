@@ -58,7 +58,7 @@ const Home: NextPage = () => {
 					style={{ zIndex: 50 }}
 				>
 					<Link href="#hero">
-						<div className="flex items-center justify-center">
+						<div className="flex py-3 pr-14 items-center justify-center">
 							{/* This is a heroicon I took directly from their site */}
 							<svg
 								xmlns="http://www.w3.org/2000/svg"
