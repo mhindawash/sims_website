@@ -6,7 +6,7 @@ import { FaRegCalendarAlt } from "react-icons/fa"; // Importing a calendar icon 
 const BookingPage: React.FC = () => (
 	<div className={styles.container}>
 		<h3 className={styles.title}>
-			Book a meeting
+			<FaRegCalendarAlt size={32}/> Book a meeting
 		</h3>
 		<div className={styles.calendlyContainer}>
 			<CalendlyComponent />
