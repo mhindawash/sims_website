@@ -12,7 +12,7 @@ import FAQs from "@/components/FAQs";
 import Process from "@/components/Process";
 import MeetUs from "@/components/MeetUs";
 import BookingPage from "@/components/BookingPage";
-import { FaRegCalendarAlt } from "react-icons/fa";
+import Reviews from "@/components/Reviews";
 
 const Home: NextPage = () => {
 	return (
@@ -49,6 +49,10 @@ const Home: NextPage = () => {
 
 			<section id="calendly" className="snap-start">
 				<BookingPage />
+			</section>
+
+			<section id="reviews" className="snap-start">
+				<Reviews />
 			</section>
 
 			<div className="footer-container" style={{ overflow: "hidden" }}>

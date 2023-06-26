@@ -76,7 +76,7 @@ function Header({}: Props) {
             style={{ height: 60, width: 45 }}
 					/>
 					<p className="uppercase hidden md:inline-flex text-small text-black">
-						get in touch
+						request a quote
 					</p>
 				</motion.div>
 			</Link>
