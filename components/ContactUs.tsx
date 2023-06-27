@@ -37,7 +37,7 @@ function ContactUs({}: Props) {
         <div className="space-y-10">
           <div className="flex items-center space-x-5 justify-center">
             <PhoneIcon className="text-white h-7 w-7 animate-pulse" />
-            <p className="text-2xl">123 Woodwork Lane</p> 
+            <p className="text-2xl">123 Woodwork Lane</p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">

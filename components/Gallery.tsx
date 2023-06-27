@@ -6,7 +6,7 @@ import Link from "next/link";
 
 type Props = {};
 
-function Faqs({}: Props) {
+function Gallery({}: Props) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -29,4 +29,4 @@ function Faqs({}: Props) {
   );
 }
 
-export default Faqs;
+export default Gallery;
