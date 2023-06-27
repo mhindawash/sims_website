@@ -11,8 +11,9 @@ type Props = {};
 export default function Hero({}: Props) {
   const [text, count] = useTypewriter({
     words: [
-      "Welcome to our Shop!",
+      "Hi, We Are the Sims!",
       "Got Questions? Contact us!",
+      "No Request is too grand",
     ],
     loop: true,
     delaySpeed: 2000,
@@ -20,14 +21,14 @@ export default function Hero({}: Props) {
 
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
-      {/* <BackgroundCircles /> */}
+      <BackgroundCircles />
       <img
         className="relative border-solid border-2 border-black rounded-full h-32 w-32 mx-auto object-cover"
         src="https://simscww.com/wp-content/uploads/2022/12/DSC_4351-300x200.jpg"
         alt=""
       />
       <div className="z-10">
-        <h2 className="text-sm uppercase text-black font-bold pb-2 tracking-[10px]">
+        <h2 className="text-sm uppercase text-gray-400 pb-2 tracking-[10px]">
           Sim's Custom Wood Work
         </h2>
         <h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
