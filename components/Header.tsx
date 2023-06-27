@@ -27,17 +27,17 @@ function Header({}: Props) {
         {/* Social Icons */}
         <SocialIcon
           url="https://pinterest.com/"
-          fgColor="gray"
+          fgColor="red"
           bgColor="transparent"
         />
         <SocialIcon
           url="https://instagram.com"
-          fgColor="gray"
+          fgColor="orange"
           bgColor="transparent"
         />
         <SocialIcon
-          url="https://twitter.com/jakerent"
-          fgColor="gray"
+          url="https://twitter.com/"
+          fgColor="blue"
           bgColor="transparent"
         />
       </motion.div>
@@ -65,8 +65,8 @@ function Header({}: Props) {
             fgColor="gray"
             bgColor="transparent"
           />
-          <p className="uppercase hidden md:inline-flex text-small text-gray-400">
-            Contact Us
+          <p className="uppercase hidden md:inline-flex text-small text-black">
+            get in touch
           </p>
         </motion.div>
       </Link>

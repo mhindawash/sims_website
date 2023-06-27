@@ -1,9 +1,9 @@
 /* eslint-disable react/no-unescaped-entities */
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Image from "next/image";
+// import Image from "next/image";
 import { Cursor, Typewriter, useTypewriter } from "react-simple-typewriter";
-import BackgroundCircles from "./BackgroundCircles";
+// import BackgroundCircles from "./BackgroundCircles";
 import Link from "next/link";
 
 type Props = {};
@@ -23,7 +23,7 @@ export default function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <img
-        className="relative rounded-full h-32 w-32 mx-auto object-cover"
+        className="relative border-solid border-2 border-black rounded-full h-32 w-32 mx-auto object-cover"
         src="https://simscww.com/wp-content/uploads/2022/12/DSC_4351-300x200.jpg"
         alt=""
       />
