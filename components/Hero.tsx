@@ -50,6 +50,9 @@ export default function Hero({}: Props) {
           <Link href="#calendly">
             <button className="heroButton">Book A Meeting</button>
           </Link>
+          <Link href="#reviews">
+            <button className="heroButton">Reviews</button>
+          </Link>
         </div>
       </div>
     </div>
