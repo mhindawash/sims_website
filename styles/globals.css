@@ -18,4 +18,14 @@
     object-fit: contain; /* can be replaced with 'cover' if you want the image to fill the container */
   }  
 
+  .stroke-white {
+    -webkit-text-stroke-color: white;
+    color: black;
+  }
+  
+  .stroke-1 {
+    -webkit-text-stroke-width: .18px;
+  }
+  
+
 }
