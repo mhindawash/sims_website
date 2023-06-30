@@ -13,6 +13,8 @@ import Process from "@/components/Process";
 import MeetUs from "@/components/MeetUs";
 import BookingPage from "@/components/BookingPage";
 import Reviews from "@/components/Reviews";
+import VoteButton from "@/components/VoteButton";
+import NavigationBar from "@/components/Navgiation";
 
 const Home: NextPage = () => {
 	return (
@@ -22,6 +24,8 @@ const Home: NextPage = () => {
 			</Head>
 
 			<Header />
+			<VoteButton link={"https://www.timesfreepress.com/bob/#/gallery/380694540"} />
+			<NavigationBar />
 
 			<section id="hero" className="snap-start">
 				<Hero />

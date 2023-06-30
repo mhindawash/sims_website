@@ -6,7 +6,11 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      rotate: {
+        '-15': '-15deg',
+      },
+    },
   },
   plugins: [
     require('tailwind-scrollbar'),
