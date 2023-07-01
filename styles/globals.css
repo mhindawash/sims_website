@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 @layer components {
   .heroButton {
     @apply px-6 py-2 border border-[#242424] rounded-full uppercase text-sm tracking-widest text-gray-500 transition-all hover:border-[#f7ab0a]/40 hover:text-[#f7ab0a]/40;
@@ -17,15 +23,5 @@
     max-height: 100vh; /* adjust this to your needs */
     object-fit: contain; /* can be replaced with 'cover' if you want the image to fill the container */
   }  
-
-  .stroke-white {
-    -webkit-text-stroke-color: white;
-    color: black;
-  }
-  
-  .stroke-1 {
-    -webkit-text-stroke-width: .18px;
-  }
-  
 
 }

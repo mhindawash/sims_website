@@ -14,7 +14,7 @@ function FAQs({}: Props) {
       className="relative flex flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center overflow-hidden md:overflow-visible"
     >
       <div className="container w-full top-24 flex flex-col text-center justify-center items-center overflow-auto md:overflow-visible">
-        <h3 className="tracking-[4px] text-md md:text-lg xl:text-xl">
+        <h3 className="tracking-[4px] text-md md:text-lg xl:text-xl py-50">
           FAQs
           <p className="py-5 text-xs md:text-sm xl:text-base text-center text-black px-0">
             Hover over a question to see the answer

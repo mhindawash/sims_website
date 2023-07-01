@@ -6,11 +6,11 @@ import Link from "next/link";
 import Head from "next/head";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
-import About from "@/components/About";
+import About from "@/components/MeetUs";
 import Gallery from "@/components/Gallery";
 import FAQs from "@/components/FAQs";
 import Process from "@/components/Process";
-import MeetUs from "@/components/MeetUs";
+import MeetUs from "@/components/ContactUs";
 import BookingPage from "@/components/BookingPage";
 import Reviews from "@/components/Reviews";
 import VoteButton from "@/components/VoteButton";
@@ -18,9 +18,13 @@ import NavigationBar from "@/components/Navgiation";
 
 const Home: NextPage = () => {
 	return (
-		<div className="bg-[rgb(36,36,36)] text-black font-bold px-5 h-screen snap-y snap-mandatory overflow-scroll overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 bg-cover bg-[url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTFmODE4NTExODMzM2M5ODEzMGFlMDYwMTBjOTk0ZjUxNWVmODgyNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/ECab5CcmFmjHDZYdnB/giphy.gif')]">
+		<div className="bg-[rgb(36,36,36)] text-black font-montserrat font-bold px-5 h-screen snap-y snap-mandatory overflow-scroll overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#f7ab0a]/80 bg-cover bg-[url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMTFmODE4NTExODMzM2M5ODEzMGFlMDYwMTBjOTk0ZjUxNWVmODgyNyZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/ECab5CcmFmjHDZYdnB/giphy.gif')]">
 			<Head>
 				<title>Sim's Custom WoodWork</title>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+					rel="stylesheet"
+				/>
 			</Head>
 
 			<Header />
