@@ -7,14 +7,14 @@ function Gallery({}: Props) {
   const [lightboxImageIndex, setLightboxImageIndex] = useState<number | null>(null);
 
   const images = [
-    "/images/counter1.JPG",
-    "/images/homepage1.JPG",
-    "/images/kitchen1.JPG",
-    "/images/kitchen2.jpg",
-    "/images/kitchen3.jpg",
-    "/images/kitchen4.jpg",
-    "/images/kitchen5.jpg",
-    "/images/woodcabinet1.JPG",
+    "/static/images/counter1.JPG",
+    "/static/images/homepage1.JPG",
+    "/static/images/kitchen1.JPG",
+    "/static/images/kitchen2.jpg",
+    "/static/images/kitchen3.jpg",
+    "/static/images/kitchen4.jpg",
+    "/static/images/kitchen5.jpg",
+    "/static/images/woodcabinet1.JPG",
     // add paths to more images as needed...
   ];
 
