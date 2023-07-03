@@ -27,11 +27,11 @@ export default function Hero({}: Props) {
 				alt=""
 			/>
 			<div className="z-10">
-				<h2 className="text-sm uppercase text-black pb-2 tracking-[10px] stroke-white stroke-1">
+				<h2 className="text-sm uppercase text-black pb-2 tracking-[10px]">
 					Sim's Custom Wood Work
 				</h2>
 				<h1 className="text-5xl lg:text-6xl font-semibold scroll-px-10">
-					<span className="mr-3 stroke-white stroke-1">{text}</span>
+					<span className="mr-3">{text}</span>
 					<Cursor cursorColor="#F7AB0A" />
 				</h1>
 

@@ -38,7 +38,7 @@ function VoteButton({ link }: Props) {
     >
       <div
         ref={nodeRef}
-        className="absolute flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-green-500 border-4 border-black rounded-full cursor-move shadow-xl text-center text-sm font-bold left-10 top-16 md:top-16 md:left-10 w-36 h-36 p-2 z-50"
+        className="absolute flex flex-col items-center justify-center bg-gradient-to-r from-blue-500 to-pink-500 border-4 border-black rounded-full cursor-move shadow-xl text-center text-sm font-bold left-10 top-16 md:top-16 md:left-10 w-36 h-36 p-2 z-50"
         onClick={handleClick}
       >
         <div
